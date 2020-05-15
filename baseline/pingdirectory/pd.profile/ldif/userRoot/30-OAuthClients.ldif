@@ -156,6 +156,7 @@ pf-oauth-client-authn-type: SECRET
 pf-oauth-client-hashed-secret: aed8ea7bd97e864a63c17e580370da05
 pf-oauth-client-require-signed-requests: FALSE
 pf-oauth-client-jwks-url: https://localhost:9031/pf/JWKS
+pf-oauth-client-supplemental-info: 16:EXCLUSIVE_SCOPES:null
 pf-oauth-client-redirect-uri: http://modelop:8090/login/oauth2/code/gateway-service
 pf-oauth-client-redirect-uri: http://localhost:8090/login/oauth2/code/gateway-service
 pf-oauth-client-logo-url: https://www.modelop.com/wp-content/uploads/2019/09/logo_ModelOp_darkbg_300w_01.png
