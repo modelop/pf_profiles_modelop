@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urn:Clients xmlns:urn="urn:pingidentity.com:pf:oauth:client">
-    <urn:Client client_id="gateway-service" name="gateway-service" secret="aed8ea7bd97e864a63c17e580370da05" persistentGrantExpirationTime="0" enabled="true" persistentGrantExpirationTimeUnit="d" lastModified="2020-05-15T03:14:55.873Z" bypassApprovalPage="false" restrictScopes="false" clientAuthnType="SECRET" enforceOneTimeJWT="false" isRequireSignedRequest="false">
+    <urn:Client client_id="gateway-service" name="gateway-service" secret="aed8ea7bd97e864a63c17e580370da05" persistentGrantExpirationTime="0" enabled="true" persistentGrantExpirationTimeUnit="d" lastModified="2019-01-28T03:14:55.873Z" bypassApprovalPage="false" restrictScopes="false" clientAuthnType="SECRET" enforceOneTimeJWT="false" isRequireSignedRequest="false">
         <urn:Grant type="authorization_code"/>
         <urn:Grant type="implicit"/>
         <urn:Grant type="refresh_token"/>
