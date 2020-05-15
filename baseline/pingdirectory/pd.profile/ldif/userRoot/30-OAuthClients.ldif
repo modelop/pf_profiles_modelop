@@ -147,6 +147,33 @@ pf-oauth-client-persistent-grant-exp-time-unit: d
 pf-oauth-client-enforce-replay-prevention: FALSE
 pf-oauth-client-bypass-approval-page: TRUE
 
+dn: pf-oauth-client-id=gateway-service,ou=oauthClients,${USER_BASE_DN}
+objectClass: top
+objectClass: pf-oauth-client
+pf-oauth-client-id: gateway-service
+pf-oauth-client-name: gateway-service
+pf-oauth-client-authn-type: SECRET
+pf-oauth-client-hashed-secret: aed8ea7bd97e864a63c17e580370da05
+pf-oauth-client-require-signed-requests: FALSE
+pf-oauth-client-jwks-url: https://localhost:9031/pf/JWKS
+pf-oauth-client-redirect-uri: http://modelop:8090/login/oauth2/code/gateway-service
+pf-oauth-client-redirect-uri: http://localhost:8090/login/oauth2/code/gateway-service
+pf-oauth-client-logo-url: https://www.modelop.com/wp-content/uploads/2019/09/logo_ModelOp_darkbg_300w_01.png
+pf-oauth-client-bypass-approval-page: FALSE
+pf-oauth-client-restrict-scopes: FALSE
+pf-oauth-client-grant-type: authorization_code
+pf-oauth-client-grant-type: implicit
+pf-oauth-client-grant-type: refresh_token
+pf-oauth-client-grant-type: client_credentials
+pf-oauth-client-grant-type: device_authorization_grant
+pf-oauth-client-grant-type: CIBA
+pf-oauth-client-grant-type: token_exchange
+pf-oauth-client-grant-type: resource_owner_password_credentials
+pf-oauth-client-grant-type: assertion_grants
+pf-oauth-client-grant-type: access_token_validation
+pf-oauth-client-supplemental-info: 14:DEFAULT_ATM_ID:jwt
+pf-oauth-client-supplemental-info: 32:VALIDATE_USING_ALL_ELIGIBLE_ATMS:false
+
 dn: pf-oauth-client-id=rs_client,ou=oauthClients,${USER_BASE_DN}
 objectClass: top
 objectClass: pf-oauth-client
