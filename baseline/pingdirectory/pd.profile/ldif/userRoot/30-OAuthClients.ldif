@@ -551,7 +551,7 @@ pf-oauth-client-supplemental-info: 28:id_token_signed_response_alg:null
 pf-oauth-client-id: gateway-service
 pf-oauth-client-persistent-grant-exp-type: SERVER_DEFAULT
 pf-oauth-client-authn-type: SECRET
-pf-oauth-client-hashed-secret: aed8ea7bd97e864a63c17e580370da05
+pf-oauth-client-hashed-secret: LFPqma5EgiNmpPdRApyzJrgwpcm4-blbnERrtNkoeHE.lA_Ir3Um.2
 pf-oauth-client-persistent-grant-exp-time: 0
 pf-oauth-client-persistent-grant-exp-time-unit: d
 pf-oauth-client-enforce-replay-prevention: FALSE
@@ -598,7 +598,7 @@ pf-oauth-client-supplemental-info: 28:id_token_signed_response_alg:null
 pf-oauth-client-id: model-manage
 pf-oauth-client-persistent-grant-exp-type: SERVER_DEFAULT
 pf-oauth-client-authn-type: SECRET
-pf-oauth-client-hashed-secret: 83cb0e27d69c4e6868397e0c6f54f7c3
+pf-oauth-client-hashed-secret: LFPqma5EgiNmpPdRApyzJrgwpcm4-blbnERrtNkoeHE.lA_Ir3Um.2
 pf-oauth-client-persistent-grant-exp-time: 0
 pf-oauth-client-persistent-grant-exp-time-unit: d
 pf-oauth-client-enforce-replay-prevention: FALSE
