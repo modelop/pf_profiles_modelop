@@ -11,11 +11,11 @@ objectClass: pf-connected-identities
 givenName: <first>
 sn: <last>
 cn: {givenName} {sn}
-initials: {givenName:1}<random:chars:ABCDEFGHIJKLMNOPQRSTUVWXYZ:1>{sn:1}
+initials: {givenName}{sn}
 uid: autogen.user.<sequential:0>
-mail: {uid}@autogen.example.com
+mail: <mail>
 pf-connected-identity: auth-source=pf-local-identity:user-id={uid}
-userPassword: 2FederateM0re
+userPassword: <userPassword>
 telephoneNumber: <random:telephone>
 homePhone: <random:telephone>
 mobile: <random:telephone>
