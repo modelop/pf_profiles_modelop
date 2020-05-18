@@ -1,16 +1,16 @@
-dn: uid=user.0,ou=People,${USER_BASE_DN}
+dn: uid=john,ou=People,${USER_BASE_DN}
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
 sn: Doe
-cn: John Doe
+cn: JohnDoe
 givenName: John
-uid: user.0
-mail: user.0@example.com
+uid: john
+mail: john@example.com
 userPassword: 2FederateM0re
-pf-connected-identity: auth-source=pf-local-identity:user-id=user.0
+pf-connected-identity: auth-source=pf-local-identity:user-id=john
 
 dn: uid=user.1,ou=People,${USER_BASE_DN}
 objectClass: top
