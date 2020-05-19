@@ -12,7 +12,7 @@ mail: john@example.com
 userPassword: john-secret
 pf-connected-identity: auth-source=pf-local-identity:user-id=john
 
-dn: uid=user.1,ou=People,${USER_BASE_DN}
+dn: uid=jane,ou=People,${USER_BASE_DN}
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -21,10 +21,10 @@ objectClass: pf-connected-identities
 sn: Doe
 cn: Jane Doe
 givenName: Jane
-uid: user.1
-mail: user.1@example.com
-userPassword: 2FederateM0re
-pf-connected-identity: auth-source=pf-local-identity:user-id=user.1
+uid: jane
+mail: jane@example.com
+userPassword: jane-secret
+pf-connected-identity: auth-source=pf-local-identity:user-id=jane
 
 dn: uid=administrator,ou=People,${USER_BASE_DN}
 objectClass: top
