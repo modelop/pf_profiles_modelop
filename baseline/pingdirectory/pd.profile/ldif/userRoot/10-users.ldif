@@ -8,7 +8,7 @@ sn: Doe
 cn: John Doe
 givenName: John
 uid: john
-mail: john@example.com
+mail: john@modelop.com
 userPassword: john-secret
 pf-connected-identity: auth-source=pf-local-identity:user-id=john
 
@@ -22,7 +22,7 @@ sn: Doe
 cn: Jane Doe
 givenName: Jane
 uid: jane
-mail: jane@example.com
+mail: jane@modelop.com
 userPassword: jane-secret
 pf-connected-identity: auth-source=pf-local-identity:user-id=jane
 
@@ -36,6 +36,7 @@ sn: PingFederate
 cn: Administrator
 givenName: PingFederate
 uid: administrator
+mail: admin@modelop.com
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=administrator
 

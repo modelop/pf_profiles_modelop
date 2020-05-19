@@ -1,17 +1,9 @@
-dn: cn=group.0,ou=groups,${USER_BASE_DN}
-objectClass: top
-objectClass: groupOfNames
-cn: group.0
-member: uid=john,ou=people,${USER_BASE_DN}
-member: uid=jane,ou=people,${USER_BASE_DN}
-
 dn: cn=PFAdminGroup,ou=groups,${USER_BASE_DN}
 objectClass: top
 objectClass: groupOfNames
 cn: PFAdminGroup
 member: uid=administrator,ou=people,${USER_BASE_DN}
 member: uid=access2federate,ou=People,${USER_BASE_DN}
-member: uid=john,ou=people,${USER_BASE_DN}
 
 dn: cn=PFCryptoGroup,ou=groups,${USER_BASE_DN}
 objectClass: top
@@ -24,6 +16,8 @@ objectClass: top
 objectClass: groupOfNames
 cn: PFAuditorGroup
 member: uid=auditor,ou=people,${USER_BASE_DN}
+member: uid=john,ou=people,${USER_BASE_DN}
+member: uid=jane,ou=people,${USER_BASE_DN}
 
 dn: cn=PFUserAdminGroup,ou=groups,${USER_BASE_DN}
 objectClass: top
