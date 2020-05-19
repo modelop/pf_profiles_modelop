@@ -5,11 +5,11 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
 sn: Doe
-cn: JohnDoe
+cn: John Doe
 givenName: John
 uid: john
 mail: john@example.com
-userPassword: 2FederateM0re
+userPassword: john-secret
 pf-connected-identity: auth-source=pf-local-identity:user-id=john
 
 dn: uid=user.1,ou=People,${USER_BASE_DN}
