@@ -58,5 +58,6 @@
         <urn:AttributeName>Username</urn:AttributeName>
         <urn:AttributeName>OrgName</urn:AttributeName>
         <urn:AttributeName>email</urn:AttributeName>
+        <urn:AttributeName>firstName</urn:AttributeName>
     </urn:ExtendedContractAttributes>
 </urn:AccessTokenManagerConfiguration>
