@@ -8,7 +8,7 @@ pf-oauth-client-require-signed-requests: FALSE
 pf-oauth-client-grant-type: authorization_code
 pf-oauth-client-grant-type: client_credentials
 pf-oauth-client-grant-type: password
-pf-oauth-client-grant-type: access_token_validation
+pf-oauth-client-grant-type: urn:pingidentity.com:oauth2:grant_type:validate_bearer
 pf-oauth-client-jwks-url: https://localhost:9031/pf/JWKS
 pf-oauth-client-redirect-uri: http://modelop:8090/login/oauth2/code/gateway-service
 pf-oauth-client-redirect-uri: http://localhost:8090/login/oauth2/code/gateway-service
@@ -48,7 +48,7 @@ pf-oauth-client-restrict-scopes: FALSE
 pf-oauth-client-require-signed-requests: FALSE
 pf-oauth-client-grant-type: client_credentials
 pf-oauth-client-grant-type: password
-pf-oauth-client-grant-type: access_token_validation
+pf-oauth-client-grant-type: urn:pingidentity.com:oauth2:grant_type:validate_bearer
 pf-oauth-client-redirect-uri: http://modelop:8090/login/oauth2/code/model-manage
 pf-oauth-client-redirect-uri: http://localhost:8090/login/oauth2/code/model-manage
 pf-oauth-client-supplemental-info: 44:BYPASS_ACTIVATION_CODE_CONFIRMATION_OVERRIDE:null
