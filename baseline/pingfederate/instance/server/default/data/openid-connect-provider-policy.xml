@@ -20,9 +20,9 @@
             <urn1:AttributeMap Name="profile" Type="Text" Value="https://www.modelop.com/" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
             <urn1:AttributeMap Name="phone_number_verified" Type="Text" Value="true" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
             <urn1:AttributeMap Name="given_name" Type="Text" Value="John" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-            <urn1:AttributeMap Name="middle_name" Type="Text" Value="" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="middle_name" Type="Text" Value="David" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
             <urn1:AttributeMap Name="picture" Type="Text" Value="https://www.pingidentity.com/images/ping-logo.png" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-            <urn1:AttributeMap Name="name" Type="Text" Value="John Doe" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+            <urn1:AttributeMap Name="name" Type="Text" Value="John David Doe" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
             <urn1:AttributeMap Name="phone_number" Type="Text" Value="(555) 555-5555" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
             <urn1:AttributeMap Name="address.formatted" Type="Text" Value="123 Main Street, Smallville, ME USA 11223" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
             <urn1:AttributeMap Name="family_name" Type="Text" Value="Doe" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
