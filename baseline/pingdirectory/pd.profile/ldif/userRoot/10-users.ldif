@@ -5,7 +5,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
 sn: Doe
-cn: JohnDoe
+cn: John Doe
 givenName: John
 uid: john
 mail: john@modelop.com
@@ -19,7 +19,7 @@ objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
 sn: Doe
-cn: JaneDoe
+cn: Jane Doe
 givenName: Jane
 uid: jane
 mail: jane@modelop.com
