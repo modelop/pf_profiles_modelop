@@ -20,7 +20,7 @@
         <urn:Field name="Space Delimit Scope Values">false</urn:Field>
         <urn:Field name="Issuer Claim Value"/>
         <urn:Field name="Audience Claim Value"/>
-        <urn:Field name="JWT ID Claim Length">0</urn:Field>
+        <urn:Field name="JWT ID Claim Length">10</urn:Field>
         <urn:Field name="Access Grant GUID Claim Name">agid</urn:Field>
         <urn:Field name="JWKS Endpoint Path"/>
         <urn:Field name="JWKS Endpoint Cache Duration">720</urn:Field>
@@ -38,7 +38,7 @@
         <urn:Field name="Space Delimit Scope Values">false</urn:Field>
         <urn:Field name="Issuer Claim Value"/>
         <urn:Field name="Audience Claim Value"/>
-        <urn:Field name="JWT ID Claim Length">0</urn:Field>
+        <urn:Field name="JWT ID Claim Length">10</urn:Field>
         <urn:Field name="Access Grant GUID Claim Name">agid</urn:Field>
         <urn:Field name="JWKS Endpoint Path"/>
         <urn:Field name="JWKS Endpoint Cache Duration">720</urn:Field>
