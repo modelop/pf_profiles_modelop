@@ -38,6 +38,7 @@ pf-oauth-client-persistent-grant-exp-time: 0
 pf-oauth-client-persistent-grant-exp-time-unit: d
 pf-oauth-client-enforce-replay-prevention: FALSE
 pf-oauth-client-bypass-approval-page: FALSE
+pf-oauth-client-logo-url: https://aws-website-elrincondelosmorales-xgpyf.s3.amazonaws.com/modelop_100_100.png
 
 dn: pf-oauth-client-id=model-manage,ou=oauthClients,${USER_BASE_DN}
 objectClass: top
@@ -77,6 +78,7 @@ pf-oauth-client-persistent-grant-exp-time: 0
 pf-oauth-client-persistent-grant-exp-time-unit: d
 pf-oauth-client-enforce-replay-prevention: FALSE
 pf-oauth-client-bypass-approval-page: FALSE
+pf-oauth-client-logo-url: https://aws-website-elrincondelosmorales-xgpyf.s3.amazonaws.com/modelop_100_100.png
 
 dn: pf-oauth-client-id=go-cli,ou=oauthClients,${USER_BASE_DN}
 objectClass: top
@@ -114,6 +116,7 @@ pf-oauth-client-persistent-grant-exp-time: 0
 pf-oauth-client-persistent-grant-exp-time-unit: d
 pf-oauth-client-enforce-replay-prevention: FALSE
 pf-oauth-client-bypass-approval-page: FALSE
+pf-oauth-client-logo-url: https://aws-website-elrincondelosmorales-xgpyf.s3.amazonaws.com/modelop_100_100.png
 
 dn: pf-oauth-client-id=pingaccessAc,ou=oauthClients,${USER_BASE_DN}
 objectClass: top
