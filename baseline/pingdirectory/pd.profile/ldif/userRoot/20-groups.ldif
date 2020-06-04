@@ -18,6 +18,7 @@ cn: PFAuditorGroup
 member: uid=auditor,ou=people,${USER_BASE_DN}
 member: uid=john,ou=people,${USER_BASE_DN}
 member: uid=jane,ou=people,${USER_BASE_DN}
+member: uid=modelop,ou=people,${USER_BASE_DN}
 
 dn: cn=PFUserAdminGroup,ou=groups,${USER_BASE_DN}
 objectClass: top
