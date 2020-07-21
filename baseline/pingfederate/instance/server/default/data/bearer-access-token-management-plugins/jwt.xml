@@ -61,5 +61,6 @@
         <urn:AttributeName>given_name</urn:AttributeName>
         <urn:AttributeName>family_name</urn:AttributeName>
         <urn:AttributeName>name</urn:AttributeName>
+        <urn:AttributeName>groups</urn:AttributeName>
     </urn:ExtendedContractAttributes>
 </urn:AccessTokenManagerConfiguration>
