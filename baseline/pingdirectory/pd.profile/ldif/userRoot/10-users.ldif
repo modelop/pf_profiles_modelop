@@ -22,7 +22,7 @@ sn: aml
 cn: aml
 givenName: aml
 uid: aml
-mail: amlUser@aml.com
+mail: aml@aml.com
 userPassword: aml
 pf-connected-identity: auth-source=pf-local-identity:user-id=aml
 
