@@ -21,6 +21,7 @@ member: uid=jane,ou=people,${USER_BASE_DN}
 member: uid=modelop,ou=people,${USER_BASE_DN}
 member: uid=aml,ou=people,${USER_BASE_DN}
 member: uid=compilance,ou=people,${USER_BASE_DN}
+member: uid=admin,ou=people,${USER_BASE_DN}
 
 dn: cn=PFUserAdminGroup,ou=groups,${USER_BASE_DN}
 objectClass: top

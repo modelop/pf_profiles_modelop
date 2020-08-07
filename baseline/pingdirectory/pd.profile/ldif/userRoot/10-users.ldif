@@ -1,3 +1,17 @@
+dn: uid=admin,ou=People,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: pf-connected-identities
+sn: admin
+cn: admin
+givenName: admin
+uid: admin
+mail: admin@admin.com
+userPassword: admin
+pf-connected-identity: auth-source=pf-local-identity:user-id=admin
+
 dn: uid=modelop,ou=People,${USER_BASE_DN}
 objectClass: top
 objectClass: person
