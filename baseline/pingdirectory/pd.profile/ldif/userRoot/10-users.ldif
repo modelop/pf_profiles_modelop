@@ -40,6 +40,34 @@ mail: jane@modelop.com
 userPassword: jane-secret
 pf-connected-identity: auth-source=pf-local-identity:user-id=jane
 
+dn: uid=aml,ou=People,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: pf-connected-identities
+sn: aml
+cn: aml aml
+givenName: aml
+uid: aml
+mail: aml@aml.com
+userPassword: aml-secret
+pf-connected-identity: auth-source=pf-local-identity:user-id=aml
+
+dn: uid=compilance,ou=People,${USER_BASE_DN}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: pf-connected-identities
+sn: compilance
+cn: compilance compilance
+givenName: compilance
+uid: compilance
+mail: compilance@compilance.com
+userPassword: compilance-secret
+pf-connected-identity: auth-source=pf-local-identity:user-id=compilance
+
 dn: uid=administrator,ou=People,${USER_BASE_DN}
 objectClass: top
 objectClass: person
