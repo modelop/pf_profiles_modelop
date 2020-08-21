@@ -22,7 +22,7 @@ done
         -keysize 4096 \
         -keypass ${pwd} \
         -validity 3650 \
-        ${ext:+-ext SAN=}${ext}${ext:+,dns:localhost,ip:127.0.0.1} \
+        ${ext:+-ext SAN=}${ext}${ext:+,dns:localhost,ip:127.0.0.1,dns:pf.fastscore.tools} \
         -dname cn=dev,ou=docker,o=pingidentity,l=denver,st=co,c=us
     keytool \
         -importkeystore \
