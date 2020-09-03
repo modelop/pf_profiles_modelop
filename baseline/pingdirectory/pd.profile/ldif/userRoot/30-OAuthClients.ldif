@@ -50,6 +50,7 @@ pf-oauth-client-require-signed-requests: FALSE
 pf-oauth-client-grant-type: client_credentials
 pf-oauth-client-grant-type: password
 pf-oauth-client-grant-type: urn:pingidentity.com:oauth2:grant_type:validate_bearer
+pf-oauth-client-supplemental-info: 22:ALLOW_EXCLUSIVE_SCOPES:true
 pf-oauth-client-supplemental-info: 44:BYPASS_ACTIVATION_CODE_CONFIRMATION_OVERRIDE:null
 pf-oauth-client-supplemental-info: 19:DEVICE_FLOW_SETTING:SERVER_DEFAULT
 pf-oauth-client-supplemental-info: 14:DEFAULT_ATM_ID:jwt
@@ -62,7 +63,7 @@ pf-oauth-client-supplemental-info: 34:PERSISTENT_GRANT_IDLE_TIMEOUT_TYPE:SERVER_
 pf-oauth-client-supplemental-info: 31:id_token_encrypted_response_enc:null
 pf-oauth-client-supplemental-info: 32:VALIDATE_USING_ALL_ELIGIBLE_ATMS:false
 pf-oauth-client-supplemental-info: 39:PERSISTENT_GRANT_IDLE_TIMEOUT_TIME_UNIT:d
-pf-oauth-client-supplemental-info: 16:EXCLUSIVE_SCOPES:null
+pf-oauth-client-supplemental-info: 16:EXCLUSIVE_SCOPES:["modelop-admin"]
 pf-oauth-client-supplemental-info: 7:ENABLED:true
 pf-oauth-client-supplemental-info: 23:USER_AUTHZ_URL_OVERRIDE:null
 pf-oauth-client-supplemental-info: 30:PENDING_AUTHZ_TIMEOUT_OVERRIDE:null
