@@ -10,6 +10,7 @@
         <con:item name="profile">Profile access</con:item>
         <con:item name="admin">Admin permissions</con:item>
         <con:item name="email">Email Address access</con:item>
+        <con:item name="modelop-admin">role base access</con:item>
     </con:map>
     <con:list name="dynamic-common-scopes"/>
     <con:map name="scope-group-descriptions"/>
