@@ -8,7 +8,7 @@
         <urn1:AttributeMap Name="family_name" Type="Text" Value="Doe" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:AttributeMap Name="name" Type="Text" Value="John Doe" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:AttributeMap Name="groups" Type="Text" Value="modelop" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-        <urn1:AttributeMap Name="modelop-rba" Type="Text" Value="no-authority" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="modelop-rba" Type="Text" Value="stored-models-reader runtimes-reader deployable-model-reader deployed-model-reader model-test-results-reader jobs-reader" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:UserKeyToAccessTokenMapping>
     <urn:UserKeyToAccessTokenMapping contextId="authz_req|apc.Zxp6N6W5PH9onACT" tokenManagerId="jwt">
@@ -19,7 +19,7 @@
         <urn1:AttributeMap Name="family_name" Type="Text" Value="Doe" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:AttributeMap Name="name" Type="Text" Value="John Doe" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:AttributeMap Name="groups" Type="Text" Value="modelop" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
-        <urn1:AttributeMap Name="modelop-rba" Type="Text" Value="no-authority" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
+        <urn1:AttributeMap Name="modelop-rba" Type="Text" Value="stored-models-reader runtimes-reader deployable-model-reader deployed-model-reader model-test-results-reader jobs-reader" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
         <urn1:TokenAuthorizationIssuanceCriteria xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2"/>
     </urn:UserKeyToAccessTokenMapping>
     <urn:PasswordCredentialValidatorToUserKeyMapping sourcePluginId="pingdirectory">
