@@ -10,6 +10,8 @@
         <urn:Field name="Mode for Synchronous RPC">3</urn:Field>
         <urn:Field name="RPC Timeout">500</urn:Field>
     </urn:AdvancedFields>
+    <urn:Tables>
+    </urn:Tables>
     <urn:ExtendedContractAttributes>
         <urn:AttributeName>client_id</urn:AttributeName>
     </urn:ExtendedContractAttributes>
