@@ -55,7 +55,7 @@
         <con:item name="value">SAMEORIGIN</con:item>
         <!-- <con:item name="include-patterns"></con:item> -->
         <con:item name="exclude-patterns">
-            */idp/startSLO.ping;*/sp/startSLO.ping;*/idp/SLO.saml2;*/sp/SLO.saml2;*/idp/SLO.ping;*/sp/SLO.ping;*/idp/prp.wsf;*/sp/prp.wsf;*/idp/prp.ping;*/sp/prp.ping;*/as/authorization.oauth2;*/as/token.oauth2;*/as/revoke_token.oauth2;*/idp/userinfo.openid;*/pf-ws/rest/oauth/grants/;*/pf/JWKS;*/.well-known/openid-configuration;*/as/bc-auth.ciba
+            */idp/startSLO.ping;*/sp/startSLO.ping;*/idp/SLO.saml2;*/sp/SLO.saml2;*/idp/SLO.ping;*/sp/SLO.ping;*/idp/prp.wsf;*/sp/prp.wsf;*/idp/prp.ping;*/sp/prp.ping;/as/authorization.oauth2;/as/token.oauth2;/as/revoke_token.oauth2;/idp/userinfo.openid;/pf-ws/rest/oauth/grants/;/pf/JWKS;/.well-known/openid-configuration;/as/bc-auth.ciba
         </con:item>
      </con:map>
 
