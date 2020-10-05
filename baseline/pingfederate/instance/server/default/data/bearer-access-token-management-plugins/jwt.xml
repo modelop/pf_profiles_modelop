@@ -63,6 +63,7 @@
         <urn:AttributeName>name</urn:AttributeName>
         <urn:AttributeName>groups</urn:AttributeName>
         <urn:AttributeName>member_off</urn:AttributeName>
+        <urn:AttributeName>memberOf</urn:AttributeName>
         <urn:AttributeName>modelop-rba</urn:AttributeName>
     </urn:ExtendedContractAttributes>
 </urn:AccessTokenManagerConfiguration>
