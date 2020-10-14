@@ -12,6 +12,7 @@ pf-oauth-client-grant-type: urn:pingidentity.com:oauth2:grant_type:validate_bear
 pf-oauth-client-jwks-url: https://localhost:9031/pf/JWKS
 pf-oauth-client-redirect-uri: http://modelop:8090/login/oauth2/code/gateway-service
 pf-oauth-client-redirect-uri: http://localhost:8090/login/oauth2/code/gateway-service
+pf-oauth-client-redirect-uri: http://mocaasin.modelop.center/login/oauth2/code/gateway-service
 pf-oauth-client-supplemental-info: 44:BYPASS_ACTIVATION_CODE_CONFIRMATION_OVERRIDE:null
 pf-oauth-client-supplemental-info: 19:DEVICE_FLOW_SETTING:SERVER_DEFAULT
 pf-oauth-client-supplemental-info: 14:DEFAULT_ATM_ID:jwt
